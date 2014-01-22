@@ -12,6 +12,8 @@
  */
 
 (function($) {
+	// Requires jQuery UI.
+	if(!$.ui) return;
 
 	$.widget("mjs.nestedSortable", $.extend({}, $.ui.sortable.prototype, {
 
